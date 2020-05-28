@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The powerpuff girls!</title>
+    <link rel="icon" href="img/favicon-powerpuff-girls.png">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <!-- Header element -->
+    <div class="hero-banner">
+        <div class="wrapper">
+            <h1> <span id="The"> The </span><span id="powerpuff">Powerpuff</span> <span id="girls">girls!</span></h1>
+
+            <h4> Blossom, Bubbles, and Buttercup<br/>  
+                were created by Professor Utonium in an attempt to create<br/> 
+                the "perfect little girl" using a mixture of <br/>
+                <span class="highlight">"sugar, spice, and everything nice"</span></h4>
+            <a class="cta alt" href="#more-info"> Read More<a>
+        </div>
+        <div class="character1"></div>
+        <div class="character2"></div>
+        <div class="character3"></div>
+    </div>  
+    <div id="more-info"></div>
+	<nav>
+		<a href="#" class="logo">The powerpuff girls!</a>
+		<ul>
+			<li><a href="javascript:" onclick="showPopup();">Sign Up</a></li>
+			<li><a href="#Blossom">Blossom</a></li>
+            <li><a href="#Bubbles">Bubbles</a></li>
+            <li><a href="#Buttercup">Buttercup</a></li>
+            
+		</ul>
+	</nav>
+ 
+  
+
+    <div class="more-info"> 
+        <div class="wrapper">
+            <h2>Join Our Fan Club</h2>
+            <p>Every week you will <span class="highlight">recive information</span> about our super cool missions. <br/></p>
+            <div id="Blossom"></div>
+<p class="citat">"And so, once again, the day is saved, thanks to...The Powerpuff Girls!" </p>
+    <button class="cta" onclick="showPopup();">Sign Me Up!</button>
+
+        </div>
+    </div>
+
+
+    <!--main element-->
+    <main>
+    <div class="wrapper">
+        <div class="blossom">
+            <img src="img/Blossom.png" alt="">
+             <h2> About Blossom </h2> 
+             <div id="Bubbles"></div>
+            <p> Ingredient: "Everything is nice" </br>
+           Signature color: Pink </br>
+             Hair: Strawberry blonde hair with a red bow </br>
+            Superpower:Ice breath, microscopic vision and advanced intelligence </p>
+        </div>
+
+        <div class="Bubbles"> 
+            <img src="img/Bubbles.png" alt="Bubbles">
+             <h2>About Bubbles</h2>
+             <div id="Buttercup"></div>
+             <p> Ingredient: Sugar </br>
+                 Signature color: Blue </br>
+                Hair: Blonde hair in pigtails</br>
+                Superpower: emitting supersonic waves </p>
+         </div>   
+     <div class="Buttercup">
+            <img src="Img/buttercup.png" alt="Buttercup">
+            <h2>About Buttercup</h2>
+        <ul>
+            <p>Ingredient: spice </br>
+            Signature color: Green </br>
+            Hair: Black in a flip </br>
+            Superpower: None, besides curl her tounge</p>
+         </div>
+    </div>
+    
+    
+    
+
+
+    </main>
+<!-- footer element-->
+<footer>
+    
+    <div class="footer">
+        <div class="footer-img"></div>
+<p> This site was created during a <a target=blank href="https://taptapkaboom.com" > Tap Tap Kaboom class.</a> &COPY; Simone </p>
+</div>
+
+
+</footer>
+<div class="popup" id="popup">
+    <div class="blanket"></div>
+    <div class="content">
+        <h2>Fill in your details</h2>
+        <form action="">
+            <div class="row">
+            <div class="item">
+                <label>Your First Name</label>
+                     <input type="text" placeholder="name" value="Shirley">
+            </div>
+            <div class="item">
+                <label> Superpower </label>
+                     <input type="text" placeholder="Invisible">
+            </div>
+        </div>
+        <div class="row">
+            <div class="item">
+                <label> Ingredient </label>
+                <input type="text" placeholder="Kind">
+            </div>
+            <div class="item">
+                <label> Signature color </label>
+                     <input type="text" placeholder="Purple">
+                    </div>
+            </div>
+        <button class="cta" onclick="hidePopup();">I Want In</button>
+        </form>
+        <button class="close" onclick="hidePopup();">Close</button>
+    </div>
+</div>
+
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
