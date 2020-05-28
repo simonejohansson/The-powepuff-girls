@@ -1,0 +1,367 @@
+body{
+    font-family: 'Lemonada', cursive;
+}
+img {
+    max-width: 300px;
+    height: auto;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 50px;
+    font-style: italic;
+
+}
+h2{
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bold;
+    font-size: 60px;
+    color: #b8e1dd;
+}
+h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+p{
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+    color:black;
+}
+ul{
+    font-family: 'Balsamiq Sans', cursive;;
+   
+}
+
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.hero-banner{
+    background-color: #b8e1dd;
+    min-height: 100vh;
+    padding: 50px 20px;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    }
+
+.hero-banner .wrapper{
+    height: 464px;
+    position: absolute;
+    top: 50%;
+    margin-top: -232px;
+    left: 50%;
+    margin-left: -480px;
+    }
+
+
+    .character1{
+        background: url(img/blossom-flying.png) no-repeat 0 0;
+        background-size: 100%;
+        width: 600px;
+        height: 600px;
+        position: absolute; top: 10%; right: 5%;
+        transform: rotate(15deg);
+    }
+    
+    .character2{
+        background: url(img/bubbles-flying.png) no-repeat 0 0;
+        background-size: 100%;
+        width: 600px;
+        height: 600px;
+        position: absolute; top: 500px; right: 10%;
+        transform: rotate(30deg);
+    }
+    
+    .character3{
+        background: url(img/buttercup-flying.png) no-repeat 0 0;
+        background-size: 100%;
+        width: 600px;
+        height: 600px;
+        position: absolute; bottom: 50px; right: 2%;
+        transform: rotate(19deg);
+    }
+
+    
+a.cta,
+button.cta{
+    background: #b8e1dd;
+    border: 4px solid #fff;
+    border-radius: 10px;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+nav{
+    box-sizing: border-box;
+    height: 100px;
+	background-color: white;
+	box-shadow: 8px 5px 8px 8px rgba(0,0,0,.2);
+	position: sticky;
+	top: 0;
+    z-index: 1;
+}
+
+nav .logo{
+	display: block;
+	width: 150px;
+	height: 40px;
+	position: absolute; top: 45%; left: 0;
+	margin-top: -20px;
+	margin-left: 30px;
+	background: url(img/logo.png) no-repeat 0 0;
+	background-size: 100%;
+	text-indent: -999px;
+}
+
+
+nav ul{
+    padding: 0;
+    margin: 0 20px 0;
+
+}
+nav ul li{
+    padding: 0;
+    margin: 0;
+    display: block;
+    float: right;
+}
+nav ul li a{
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #b8e1dd;
+    font-size: 30;
+    text-decoration: none;
+    line-height: 30px;
+    padding: 35px 10px;
+}
+.more-info{
+    text-align: center;
+}
+
+.highlight{
+	background-color: #FFADF9;
+	color:white;
+	padding: 5px 10px;
+	line-height: 50px;
+	display: inline;
+    font-weight: 800;
+}
+.citat{
+    color: #92a29f;
+    font-style: italic;
+
+}
+
+.blossom{
+  height: 400px;
+}
+
+.blossom h2{
+   margin-left: 500px;
+   color: #f481b8;
+  
+   
+}
+.blossom img{
+    float: left;
+    height: 400px;
+    overflow: hidden;
+
+}
+
+.blossom p{
+    margin-left: 500px;
+
+   
+
+
+}
+.Bubbles{
+    padding: 20px;
+}
+
+.Bubbles h2{
+    margin-right: 500px;
+    color: #65a9da;
+}
+ .Bubbles img{
+     float: right;
+ }
+ 
+ .Bubbles p{
+     margin-right: 500px;
+ }
+
+.Buttercup{
+    padding: 20px;
+}
+
+.Buttercup h2{
+    margin-left: 500px;
+    color: #7fc775;
+ }
+ .Buttercup img{
+     float: left;
+ }
+ 
+ .Buttercup p{
+     margin-left: 500px;
+ 
+ }
+
+.footer{
+    width: 960;
+    background-color: #b8e1dd;
+}
+.footer-img{
+        background: url(img/The-powerpuff-girls.jpg) no-repeat 0 0;
+        background-size: 100%;
+        height: 400px;
+        width: 600px;
+       margin: auto;
+}
+.footer p{
+    color: white;
+    text-align: center;
+}
+.footer a{
+    color: white;
+}
+.popup{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+.popup.show{
+	display: block;
+}
+.blanket{
+    background-color: rgba(0,0,0,.7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+}
+.content{
+    box-sizing: border-box;
+    padding: 30px 40px;
+    width: 960px;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -220px;
+    margin-left: -480px; 
+}
+.popup .close{
+    width: 80px;
+    height: 80px;
+    background: url(img/close.PNG) no-repeat center center;
+    background-size: 100%;
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    text-indent: -999px;
+    cursor: pointer;
+}
+.popup h2{
+    margin: 10px 0 20px;
+}
+.popup .cta{
+    margin-top: 40px;
+
+}
+.popup .row{
+
+}
+.popup .row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.popup .item{
+    float: left;
+    width: 400px;
+    margin-left: 40px;
+    text-align: left;
+}
+.popup .item:first-child{
+    margin-left: 0;
+}
+.popup .item label{
+    font-family: 'Balsamiq Sans', cursive;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #b8e1dd;
+
+}
+.popup .item input[type="text"]{
+    display: block;
+    font-family: 'Lemonada', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFADF9;
+    border: 2px solid #92a29f;
+    height: 70px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px 20px;
+}
+/*
+<div class="popup">
+    <div class="content">
+        <h2>Fill in your details</h2>
+        <form action="">
+            <div class="item">
+                <label>Your First Name</label>
+                     <input type="text" placeholder="name" value="Shirley">
+            </div>
+            <div class="item">
+                <label> Superpower </label>
+                     <input type="text" placeholder="Invisible">
+            </div>
+            <div class="item">
+                <label> Ingredient </label>
+                <input type="text" placeholder="Kind">
+            </div>
+            <div class="item">
+                <label> Signature color </label>
+                     <input type="text" placeholder="Purple">
+            </div>
+        <button class="cta">I Want In</button>
+        </form>
+        <button class="close">Close</button>
+    </div>
+</div>
+*/
